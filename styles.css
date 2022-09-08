@@ -1,0 +1,26 @@
+body {
+    background-color: blanchedalmond;
+    font-family: Verdana, sans-serif;
+} 
+
+article,
+footer
+ {background-color: rgb(235, 192, 139);}
+
+a{
+    text-decoration: none;
+    color: darkcyan;
+}
+
+article{
+    padding: 15px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+   
+}
+
+a:hover {    text-decoration: underline;}
